@@ -7,7 +7,7 @@ ENV container docker
 # UPDATE
 RUN yum -y install epel-release wget
 RUN yum -y update
-RUN rpm -ivh http://rpms.litespeedtech.com/centos/litespeed-repo-1.1-1.el7.noarch.rpm
+RUN rpm -ivh http://rpms.litespeedtech.com/centos/litespeed-repo-1.2-1.el8.noarch.rpm
 
 #Install Proftpd
 RUN yum -y install proftpd
